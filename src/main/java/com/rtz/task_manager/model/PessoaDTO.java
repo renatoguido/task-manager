@@ -20,7 +20,7 @@ import java.util.List;
 public class PessoaDTO {
     @Id
     @GeneratedValue
-    private int id;
+    private Long id;
     private String nome;
     private String departamento;
     @OneToMany(mappedBy = "pessoa")
